@@ -52,8 +52,11 @@ export const AppContextProvider = ({children})=>{
 
         try {
             const token = await getToken();
-            const {data} = await axios.get(backendUrl + 'api/user/data', {headers : {Authorization : `Bearer ${token}`}})
-
+            console.log(token);
+            
+            const {data} = await axios.get(backendUrl + '/api/user/data', {headers : {Authorization : `Bearer ${token}`}})
+             console.log(data);
+             
             if(data.success){
                 setUserData(data.user)
             }else{
