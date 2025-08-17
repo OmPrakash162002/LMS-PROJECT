@@ -199,7 +199,7 @@ const CourseDetails = () => {
         </div>
 
         <div className="px-3">
-        <button onClick={enrolledCourse} className="md:mt-6 mt-4 w-full py-3 rounded bg-blue-600  text-white font-medium">{isAlreadyEnrolled ? 'Already Enrolled':'Enroll Now'}</button>
+        <button onClick={enrolledCourse} className="md:mt-6 mt-4 w-full py-3 rounded bg-blue-600 cursor-pointer  text-white font-medium">{isAlreadyEnrolled ? 'Already Enrolled':'Enroll Now'}</button>
        </div> 
 
        <div className="px-3 pt-3">

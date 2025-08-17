@@ -2,6 +2,7 @@
 import { Course } from '../models/Course.js'
 import {v2 as cloudinary} from 'cloudinary'
 import { Purchase } from '../models/Purchase.js'
+import {User} from '../models/User.js'
 
 //   update role to educator
 export const updateRoleToEducator = async (req, res) => {
@@ -112,7 +113,7 @@ export const getEnrolledStudentsData = async (req,res) =>{
     }).populate('userId', 'name imageUrl').populate('courseId','courseTitle')
 
     const enrolledStudents = purchase.map(purchase => ({
-      studet : purchase.userId,
+      student : purchase.userId,
       courseTitle : purchase.courseId.courseTitle,
       purchaseDate : purchase.createdAt
     }))

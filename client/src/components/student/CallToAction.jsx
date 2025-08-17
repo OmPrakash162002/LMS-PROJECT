@@ -3,8 +3,8 @@ import { assets } from '../../assets/assets'
 
 const CallToAction = () => {
   return (
-    <div>
-       <section className="flex flex-col items-center justify-center text-center px-4 py-20 bg-white">
+    <div className='mt-15 w-full  '>
+       <section className="   flex flex-col items-center justify-center text-center px-4 py-20 ">
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">
         Learn anything, anytime, anywhere
       </h1>

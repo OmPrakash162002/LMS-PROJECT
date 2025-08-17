@@ -40,7 +40,7 @@ const Navbar = () => {
            <div>
            {user &&
            <>
-            <button onClick={becomeEducator}>{isEducator ? "Educator Dashboard" : "Become Educator"}</button> | <Link to="/my-enrollments">My Enrollments</Link>
+            <button className='cursor-pointer' onClick={becomeEducator}>{isEducator ? "Educator Dashboard" : "Become Educator"}</button> | <Link to="/my-enrollments">My Enrollments</Link>
           </>}
            </div>
            {/* if user is already signed in for this condition */}

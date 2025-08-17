@@ -3,8 +3,8 @@ import { assets } from '../../assets/assets'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 w-full md:px-10 py-12 mt-20 ">
-      <div className=" flex flex-col gap-5 justify-around  md:flex-row px-10">
+    <footer className=" bg-gray-900 text-gray-300 w-full md:px-10 py-12 mt-20 clip-diagonal-top ">
+      <div className=" flex flex-col gap-5 justify-around  md:flex-row px-10 pt-10 ">
         {/* Logo and Description */}
         <div>
           <div className="flex items-center gap-2 mb-4">
