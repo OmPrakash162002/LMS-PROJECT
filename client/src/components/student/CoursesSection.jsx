@@ -15,7 +15,7 @@ const CoursesSection = () => {
            <CourseCard key={i} course={course}></CourseCard>
         ))}
       </div>
-      <Link className='mt-5 mb-15  hover:bg-gray-300 p-3 border border-gray-400 rounded-2xl' to="/course-list">Search all courses</Link>
+      <Link className='mt-5 mb-15 bg-gradient-to-bl from-red-400 to-purple-400   hover:bg-blue-600 p-3 border border-gray-400 rounded-3xl hover:scale-105 transition-all duration-300' to="/course-list">Search all courses</Link>
     </div>
   )
 }

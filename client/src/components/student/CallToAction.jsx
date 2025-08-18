@@ -13,7 +13,7 @@ const CallToAction = () => {
         veniam aliqua proident excepteur commodo do ea.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4">
-        <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-md transition duration-200">
+        <button className="bg-red-600 hover:bg-blue-700  text-white font-semibold px-6 py-3 rounded-3xl transition duration-200">
           Get started
         </button>
         <button className="flex items-center text-blue-600 hover:underline font-medium">
