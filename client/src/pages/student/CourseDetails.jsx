@@ -161,7 +161,7 @@ const CourseDetails = () => {
       </div>
 
       {/* right column */}
-      <div className="bg-white shadow-2xl pb-3 ">
+      <div className="bg-white shadow-2xl pb-3 bg-gradient-to-bl from-orange-200 to-white">
         {
           playerData ? <Youtube videoId={playerData.videoId} opts={{playerVars:{autoplay:1}}} iframeClassName="w-full aspect-video"/> :<img className="w-sm" src={courseData.courseThumbnail} alt="" />
         }
